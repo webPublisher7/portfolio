@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Rubik:300,400,700'); 
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR&subset=korean'); 
 
+
 /*reset*/
 * {margin:0; padding:0;}
 li {list-style:none;}
@@ -17,7 +18,7 @@ body {font:14px 'Rubik', '나눔고딕', '돋움', Dotum, Helvetica, 'Apple SD G
 
 
 /*header*/
-#header h1 {position:absolute; top:180px; left:40px; font-size:25px; font-weight:lighter; z-index:4; color:#fff}
+#header h1 {position:absolute; top:100px; left:40px; font-size:25px; font-weight:lighter; z-index:4; color:#fff}
 #header h1 em {font-weight:bold;}
 #header div.menu {position:absolute; top:40px; left:40px; width:46px; height:46px; line-height:50px; border-radius:50px; text-align:center; background:#fff; z-index:4;}
 #header div.menu a {position:relative; display:inline-block; width:20px; height:13px; overflow:hidden;}
@@ -70,12 +71,11 @@ body {font:14px 'Rubik', '나눔고딕', '돋움', Dotum, Helvetica, 'Apple SD G
 #contents > div div.detail p.text {font-size:18px; font-family:'Noto Sans KR', sans-serif;}
 #contents > div div.detail span.type {display:inline-block; font-size:25px; font-weight:700;}
 #contents > div div.detail ul {margin:10px 0;}
-#contents > div div.detail ul li {line-height:30px; font-size:16px; font-weight:700; font-family:'Noto Sans KR', sans-serif; word-break:keep-all;}
+#contents > div div.detail ul li {line-height:25px; font-size:16px; font-weight:700; font-family:'Noto Sans KR', sans-serif; word-break:keep-all;}
 #contents > div div.detail div.btn-box {width:100%;}
 #contents > div div.detail div.btn-box a {display:inline-block; width:45%; margin:0 5px 5px 0; line-height:35px; border:1px solid #222; text-align:center; font-size:14px; font-weight:700;}
 #contents > div div.detail div.btn-box a:hover {background:#222; color:#fff;}
 #contents > div div.detail p.notice {font-size:11px; font-family:'Noto Sans KR', sans-serif; word-break:keep-all;}
-
 
 
 /*background*/
@@ -83,14 +83,13 @@ body {font:14px 'Rubik', '나눔고딕', '돋움', Dotum, Helvetica, 'Apple SD G
 #background h2 {width:0; height:0; text-indent:-999px; overflow:hidden;}
 #background div.scroll-page {position:absolute; top:0; left:0; width:100%; height:100vh;}
 #background div.scroll-page:nth-child(2) {background:url(../img/bg-intro.jpg) no-repeat left top /cover;}
-#background div.scroll-page:nth-child(3) {background:url(../img/bg-01.jpg) no-repeat left top /cover;}
-#background div.scroll-page:nth-child(4) {background:url(../img/bg-02.jpg) no-repeat left top /cover;}
-#background div.scroll-page:nth-child(5) {background:url(../img/bg-03.jpg) no-repeat left top /cover;}
-#background div.scroll-page:nth-child(6) {background:url(../img/bg-04.jpg) no-repeat left top /cover;}
-#background div.scroll-page:nth-child(7) {background:url(../img/bg-05.jpg) no-repeat left top /cover;}
-#background div.scroll-page:nth-child(8) {background:url(../img/bg-06.jpg) no-repeat left top /cover;}
-#background div.scroll-page img {position:absolute; right:10%; top:50%; transform:translate(0, -50%); max-width:900px; width:45%; min-width:220px; box-shadow:30px 40px 40px rgba(0, 0, 0, 0.6);}
-
+#background div.scroll-page:nth-child(3) {background:url(../img/bg-07.jpg) no-repeat left top /cover;}
+#background div.scroll-page:nth-child(4) {background:url(../img/bg-03.jpg) no-repeat left top /cover;}
+#background div.scroll-page:nth-child(5) {background:url(../img/bg-08.jpg) no-repeat left top /cover;}
+#background div.scroll-page:nth-child(6) {background:url(../img/bg-02.jpg) no-repeat left top /cover;}
+#background div.scroll-page:nth-child(7) {background:url(../img/bg-06.jpg) no-repeat left top /cover;}
+#background div.scroll-page:nth-child(8) {background:url(../img/bg-01.jpg) no-repeat left top /cover;}
+#background div.scroll-page img {position:absolute; right:7%; top:50%; transform:translate(0, -50%); max-width:900px; width:45%; min-width:220px; box-shadow:20px 20px 20px rgba(0, 0, 0, 0.6);}
 
 
 /*footer*/
@@ -114,7 +113,6 @@ body {font:14px 'Rubik', '나눔고딕', '돋움', Dotum, Helvetica, 'Apple SD G
  0% {opacity:1; transform:translateY(0);}
  50% {opacity:0; transform:translateY(350px);}
 }
-
 
 
 /*@media query*/
@@ -146,7 +144,6 @@ body {font:14px 'Rubik', '나눔고딕', '돋움', Dotum, Helvetica, 'Apple SD G
  #background div.scroll-page:nth-child(8) {background:url(../img/bg-066.jpg) no-repeat left top /cover;}
  #footer {bottom:20px; left:11%;}
 }
-
 
 
 @media screen and (max-width:600px) {
